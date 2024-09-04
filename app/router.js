@@ -1,5 +1,5 @@
-import EmberRouter from '@ember/routing/router';
 import config from 'super-rentals/config/environment';
+import EmberRouter from '@ember/routing/router';
 
 export default class Router extends EmberRouter {
   location = config.locationType;
